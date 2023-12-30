@@ -1,0 +1,46 @@
+<style>
+    .banner-img-container {
+      text-align: center;
+    }
+    .banner-img-container img {
+        text-align: center;
+        max-width: 100%;
+    }
+</style>
+{% if section.settings.selected_image != blank %}
+    <div class="banner-img-container">
+      <img src="{{ section.settings.selected_image | img_url: "master" }}">
+    </div>
+{% endif %}
+    
+{% schema %}
+{
+    "name": "Banner Image",
+    "class": "banner-image",
+    "tag": "section",
+    "settings": [
+        {
+            "type": "header",
+            "content": "Select Image"
+        },
+        {
+            "type": "image_picker",
+            "label": "Pick Your Image",
+            "id": "selected_image"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Banner Image",
+            "category":"Image",
+            "settings": {
+            }
+        }
+    ]
+    
+}
+{% endschema %}
+
+
+{% javascript %}
+{% endjavascript %}

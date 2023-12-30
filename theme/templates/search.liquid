@@ -1,0 +1,22 @@
+<div class="container cart-screen">
+    {% paginate search.results by 5 %}
+        {% if search.performed %}
+            <h1>{{ 'general.search_result' | t }}</h1>
+            <div class="row collection-row">
+                {% for result in search.results %}
+                    {% if result.object_type == 'page' %}
+                        <a href="{{ result.url }}">{{ result.title }}</a>
+                    {% elsif result.object_type == 'page' %}
+                        <a href="{{ result.url }}">{{ result.title }}</a>
+                    {% else %}
+                        {% render 'product-item', product: result %} 
+                    {% endif %}
+                {% endfor %}
+            </div>
+        {% else %}
+            <h1>{{ 'general.search_result' | t }}</h1>
+        {% endif %}
+
+        <div class="pagination">{{ paginate | default_pagination }}</div>
+    {% endpaginate %}
+</div>

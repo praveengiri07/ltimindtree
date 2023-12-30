@@ -1,0 +1,19 @@
+{
+  "settings_schema": {
+    "global": {
+      "settings": {
+        "header": {
+          "content": "Header"
+        }
+      }
+    }
+  },
+  "sections": {
+    "footer": {
+      "name": "Footer"
+    },
+    "header": {
+      "name": "Header"
+    }
+  }
+}

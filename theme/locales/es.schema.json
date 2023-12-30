@@ -1,0 +1,19 @@
+{
+  "settings_schema": {
+    "global": {
+      "settings": {
+        "header": {
+          "content": "Encabezamiento"
+        }
+      }
+    }
+  },
+  "sections": {
+    "footer": {
+      "name": "Pie de página"
+    },
+    "header": {
+      "name": "Encabezamiento"
+    }
+  }
+}

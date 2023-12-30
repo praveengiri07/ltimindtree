@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        {% if page_description %}
+            <meta name="description" content="{{ page_description | escape }}">
+        {% endif %}
+        {%- if settings.selected_favicon != blank -%}
+            <link rel="icon" type="image/png" href="{{ settings.selected_favicon | image_url: width: 32, height: 32 }}">
+        {%- endif -%}
+        {{ content_for_header }}
+        {{ 'style.css' | asset_url | stylesheet_tag: preload: true }}
+    </head>
+    <body>
+        {% sections 'header-group' %}
+
+        {{ settings.selected_favicon | img_url: "master" }}"
+        <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+            {{ content_for_layout }}
+        </main>
+
+        {% sections 'footer-group' %}
+        <script src="{{ 'script.js' | asset_url }}" defer="defer"></script>
+    </body>
+</html>
