@@ -1,0 +1,2 @@
+# ltimindtree
+Shopify Custom Theme
