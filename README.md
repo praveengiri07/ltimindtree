@@ -1,4 +1,4 @@
-# ltimindtree
+# LTIMindtree
 Shopify Custom Theme
 
 Objective : Build a user-friendly, interactive product page on Shopify with basic cart functionalities.
@@ -49,3 +49,26 @@ Logo and basic color: https://www.ltimindtree.com/
 -> Add custom micro-animation 
 
 
+**Home screen** : (Logo with Menu including the Search of multiple type of content )
+![image](https://github.com/praveengiri07/ltimindtree/assets/4525400/350e7efc-9bfb-4d60-b0ef-3860094d6016)
+
+
+**Calalogue screen** : (with sorting option on top)
+![image](https://github.com/praveengiri07/ltimindtree/assets/4525400/2842463f-143f-4b34-ba0d-d707de153683)
+
+with pagination :
+![image](https://github.com/praveengiri07/ltimindtree/assets/4525400/bb0adfbe-8abe-4180-a6ab-89c776bdf7ce)
+
+
+
+**Product screen** : (with featured-product at bottom)
+![image](https://github.com/praveengiri07/ltimindtree/assets/4525400/0d525c97-e390-4e67-ae5d-f9aad6ff9440)
+
+
+**Cart screen** :
+![image](https://github.com/praveengiri07/ltimindtree/assets/4525400/d1bfebb1-c296-4fdf-b3e1-1a6e1e915f30)
+
+
+**Checkout screen** :
+![image](https://github.com/praveengiri07/ltimindtree/assets/4525400/2f394371-f13e-4891-b585-d44fd66c34e6)
+ 
