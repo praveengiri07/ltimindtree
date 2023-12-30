@@ -24,7 +24,7 @@ Objective : Build a user-friendly, interactive product page on Shopify with basi
 
 
 
-**Github Repo url**: https://github.com/praveengiri07/ltimindtree/ (shared with dhruveonmars, dgpalmer and trvswgnr)
+**Github Repo url**: https://github.com/praveengiri07/ltimindtree/ (shared with dhruveonmars, dgpalmer and trvswgnr)**- currently making this repo as public till review to avoid any access issues**
 
 **Demo store**: “ltimindtree.myshopify.com" 
 
